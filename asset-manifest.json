@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/t-invoicer-reactjs-design-app/static/css/main.5cc2513f.chunk.css",
+    "main.js": "/t-invoicer-reactjs-design-app/static/js/main.a0d7f489.chunk.js",
+    "main.js.map": "/t-invoicer-reactjs-design-app/static/js/main.a0d7f489.chunk.js.map",
+    "runtime-main.js": "/t-invoicer-reactjs-design-app/static/js/runtime-main.394d70b7.js",
+    "runtime-main.js.map": "/t-invoicer-reactjs-design-app/static/js/runtime-main.394d70b7.js.map",
+    "static/css/2.4659568d.chunk.css": "/t-invoicer-reactjs-design-app/static/css/2.4659568d.chunk.css",
+    "static/js/2.08a5505a.chunk.js": "/t-invoicer-reactjs-design-app/static/js/2.08a5505a.chunk.js",
+    "static/js/2.08a5505a.chunk.js.map": "/t-invoicer-reactjs-design-app/static/js/2.08a5505a.chunk.js.map",
+    "index.html": "/t-invoicer-reactjs-design-app/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/t-invoicer-reactjs-design-app/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.5cc2513f.chunk.css.map": "/t-invoicer-reactjs-design-app/static/css/main.5cc2513f.chunk.css.map",
+    "static/js/2.08a5505a.chunk.js.LICENSE.txt": "/t-invoicer-reactjs-design-app/static/js/2.08a5505a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.394d70b7.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.08a5505a.chunk.js",
+    "static/css/main.5cc2513f.chunk.css",
+    "static/js/main.a0d7f489.chunk.js"
+  ]
+}
