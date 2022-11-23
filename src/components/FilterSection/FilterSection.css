@@ -1,0 +1,124 @@
+.wrapperDiv{
+    border: 1px solid #000;
+    position: absolute;
+    top: 85%;
+    right: 26.5rem;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    background-color: #fff;
+    transform: rotate(45deg);
+    border: 3px solid rgb(12, 57, 218);
+    border-bottom: none;
+    border-right: none;
+
+    animation-name: showInWrapper;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.filterMainDiv{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.7rem 1rem;
+    padding-bottom: 1.5rem;
+    border: 3px solid rgb(12, 57, 218);
+
+    animation-name: showInSimple;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes showInWrapper {
+    0% {
+      transform: scale(0) rotate(45deg);
+    }
+    100% {
+      transform: scale(1) rotate(45deg);
+    }
+}
+
+@keyframes showInSimple {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.dateGenDiv{
+    position: relative;
+}
+
+.dateGenDiv p{
+    margin: 0%;
+    font-size:15px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.dateInp{
+    width: 100% !important;
+    height: 3rem;
+    border: none !important;
+    outline: none;
+    border-radius: 10px !important;
+    padding: 0% 15px;
+    padding-right: 40px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    font-size: 14.5px;
+    color: #000;
+}
+
+.selectInp1{
+    width: 100% !important;
+    height: 3rem !important;
+    border-radius: 10px !important;
+    font-size: 14.5px !important; 
+}
+
+.calenderIcon1{
+    position: absolute;
+    top: 2.7rem;
+    right: 1.3rem;
+    font-size: 20px;
+    color: rgb(12, 57, 218);
+    
+}
+
+@media (max-width: 1020px) {
+    .wrapperDiv{
+        right: 18rem;
+    }
+}
+
+@media (max-width: 878px) {
+    .wrapperDiv{
+        top: 90.5%;
+        right: 9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapperDiv{
+        right: 9.3rem;
+    }
+}
+
+@media (max-width: 297px) {
+    .wrapperDiv{
+        top: 92%;
+        right: 9rem;
+    }
+}

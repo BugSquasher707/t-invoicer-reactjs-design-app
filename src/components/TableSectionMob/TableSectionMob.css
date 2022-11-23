@@ -1,0 +1,68 @@
+.tableRow3{
+    padding: 1rem !important;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.tableRow3:hover{
+    background-color: #F5F7FD;
+    cursor: pointer;
+}
+
+.TableIconContainer{
+    margin-top: 1rem !important;
+}
+
+.tableHeadPara{
+    font-size: 14px;
+}
+
+p{
+    margin: 0%;
+    margin-bottom: 0.5rem;
+}
+
+.idPara{
+    font-size: 16px;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.businessPara{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.amountPara{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dateTitle{
+    margin-right: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.checkBoxInp1{
+    margin-right: 1.5rem !important;
+}
+
+.datePara{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 576px){
+    .TableIconContainer{
+        margin-top: 0% !important;
+    }
+    .marginDiv{
+        margin-top: 1rem !important;
+    }
+    .tableRow3{
+        padding: 1rem 0rem !important;
+    }
+}

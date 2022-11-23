@@ -1,0 +1,27 @@
+.tableMainDiv{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    border-radius: 10px;
+}
+
+.checkBoxInp{
+    width: 18px;
+    height: 18px;
+    font-size: 33px;
+    border: 1px solid #000;
+    margin: 0%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    margin-right: 1rem;
+}
+
+.tableHeadPara{
+    margin: 0%;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8888AC;
+}

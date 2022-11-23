@@ -1,0 +1,71 @@
+.leftDivFooter{
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.selectInp{
+    width: 5rem;
+    height: 2rem;
+    font-size: 14px;
+    box-shadow: none;
+    border: none;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.selectInp:focus{
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+
+.leftDivFooter p{
+    margin-top: 0.5rem;
+    font-size: 15px;
+}
+
+.sliderBtn{
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.sliderBtn:hover{
+    background-color: rgb(12, 57, 218);
+    cursor: pointer;
+    color: #fff;
+}
+
+.sliderBtn:hover .leftArrow{
+    color: #fff;
+}
+
+.sliderBtn1{
+    background-color: rgb(12, 57, 218);
+    color: #fff;
+}
+
+.rightArrow{
+    font-size: 17px;
+}
+
+.leftArrow{
+    color: #ABABC4;
+    font-size: 17px;
+}
+
+@media (max-width: 576px){
+    .leftDivFooter{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,45 @@
+.loginHeading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0% 1rem;
+}
+
+.userIcon{
+    font-size: 22px;
+    color: #fff;
+}
+
+.userName{
+    font-size: 13.5px;
+    margin: 0%;
+    font-weight: 600;
+}
+
+.userPara{
+    margin: 0%;
+    font-size: 13px;
+    color: #ABABC4;
+    font-weight: 500;
+}
+
+.loginDivLg{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.downIcon{
+    font-size: 14px;
+    color: #ABABC4;
+    margin-left: 0.3rem;
+    margin-top: -0.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.downIcon:hover{
+    color: rgb(12, 57, 218);
+    cursor: pointer;
+}

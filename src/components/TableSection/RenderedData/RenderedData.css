@@ -1,0 +1,56 @@
+.tableRow1{
+    width: 100%;
+    padding: 1rem !important;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.tableRow2:hover{
+    background-color: #F5F7FD;
+    cursor: pointer;
+}
+
+.optionIcons, .thumbUpIcon{
+    font-size: 24px;
+    color: #ABABC4;
+    margin-right: 0.8rem;
+    transition: all .3s ease-in-out;
+}
+
+.thumbUpIcon{
+    color: #15B27D;
+}
+
+.optionIcons:hover{
+    color: rgb(12, 57, 218);
+}
+
+.tableDataPara{
+    color: #000;
+    font-size: 14px;
+    margin: 0%;
+}
+
+.tableRowStatusPending, .tableRowStatusDue, .tableRowStatusPaid{
+    background-color: #FFF5E9;
+    font-size: 14px;
+    margin: 0%;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    color: #FF9921;
+}
+
+.tableRowStatusDue{
+    background-color: #FCEBEB;
+    color: red;
+}
+
+.tableRowStatusPaid{
+    background-color: #E7F8F7;
+    color: #15B27D;
+}
+
+.tableDataParaPaid{
+    color: #15B27D;
+}
